@@ -1,0 +1,12 @@
+label[for="name"]::before,
+label[for="email"]::before,
+label[for="password"]::before,
+label[for="country"]::before,
+label[for="website"]::before {
+  content: "* ";
+  color: red;
+}
+
+h1 {
+  text-align: center;
+}
